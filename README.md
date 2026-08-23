@@ -1,18 +1,18 @@
 # Config Files
 
-Vim, Tmux, and Git config files for Stroup Solutions development environment.
+Dev Environment config files for Tmux, Vim, Git, and Ghostty.
 
 ## Details
+Tmux
+- Use Vim keybindings for panel navigation, text selection, and copy/pasting
+- Reduce status bar brightness (dark green)
+
 Vim
 - Display line numbers
 - Disable wrapping
 - Use 2 spaces for tab
 - Set dark background
 - See config\_files/vimrc for other
-
-Tmux
-- Use Vim keybindings for panel navigation, text selection, and copy/pasting
-- Reduce status bar brightness (dark green)
 
 Git
 - Use vim for commit messages
@@ -25,13 +25,13 @@ Git
 1. Clone this repository to your computer
 
 ```sh
-git clone git@github.com:strouptl/vim_tmux_config_files.git
+git clone git@github.com:strouptl/config_files.git
 ```
 
 2. Run the install script
 
 ```sh
-./vim_tmux_config_files/bin/install
+./config_files/bin/install
 ```
 
 3. Enjoy!
