@@ -25,7 +25,7 @@ Git
 1. Clone this repository to your computer
 
 ```sh
-git clone git@github.com:strouptl/config_files.git
+git clone https://github.com/strouptl/config_files.git
 ```
 
 2. Run the install script
