@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Copy config files
-cp ../files/tmux.conf > ~/.tmux.conf
-cp ../files/vimrc > ~/.vimrc
-cp ../files/gitignore > ~/.gitignore
+cp config_files/files/tmux.conf ~/.tmux.conf
+cp config_files/files/vimrc ~/.vimrc
+cp config_files/files/gitignore ~/.gitignore
 
 # Run git commands
 git config --global core.editor "vim"
