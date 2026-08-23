@@ -1,0 +1,21 @@
+# Ghostty Config
+
+# High contrast theme
+#theme = Kitty Default
+#theme = Abernathy
+
+# Solarized theme, with base color of 001e27 50% darker
+theme = Solarized Dark Higher Contrast
+background = 000f13
+#background = #000709
+
+background-opacity = 0.9
+
+font-family = Inconsolata
+font-size = 18
+
+#font-family = Droid Sans Mono
+#font-size = 16
+
+#font-thicken = true
+#shell-integration-features = no-cursor

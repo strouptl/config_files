@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Copy config files
+cp ../config_files/tmux.conf > ~/.tmux.conf
+cp ../config_files/vimrc > ~/.vimrc
+cp ../config_files/gitignore > ~/.gitignore
+
+# Run git commands
+git config --global core.editor "vim"
+git config --global init.defaultBranch master
+git config --global core.excludesfile ~/.gitignore
+git config --global tag.sort -version:refname
