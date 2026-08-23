@@ -5,6 +5,10 @@ cp config_files/files/tmux.conf ~/.tmux.conf
 cp config_files/files/vimrc ~/.vimrc
 cp config_files/files/gitignore ~/.gitignore
 
+# Add Delek colorscheme to Vim
+mkdir .vim/colors
+cp config_files/files/delek.vim .vim/colors/
+
 # Run git commands
 git config --global core.editor "vim"
 git config --global init.defaultBranch master

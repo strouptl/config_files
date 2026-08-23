@@ -34,9 +34,13 @@ git clone https://github.com/strouptl/config_files.git
 ./config_files/bin/install
 ```
 
-3. Enjoy!
+## Vim Exercises
+
+```sh
+vim config_files/resources/vim_exercises.txt
+```
 
 ## Other resources
-
-- Ghostty configuration
-- Vim exercises
+- [Ghostty configuration](https://raw.githubusercontent.com/strouptl/config_files/refs/heads/master/resources/Ghostty%20Config.txt)
+- [Ctrlp](https://ctrlpvim.github.io/ctrlp.vim/) (a fuzzy search plugin for Vim)
+- [Vim exercises](https://raw.githubusercontent.com/strouptl/config_files/refs/heads/master/resources/vim_exercises.txt)
