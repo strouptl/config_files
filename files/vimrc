@@ -4,6 +4,9 @@ set number
 "Disable word wrapping
 set nowrap
 
+"Enable syntax highlighting
+syntax on
+
 "Indentation
 "- use 2 spaces for shift
 set shiftwidth=2
